@@ -8,7 +8,7 @@ use yii\web\AssetBundle;
  */
 class PluginsAsset extends AssetBundle
 {
-    public $sourcePath = '@frontend/web/theme';
+    public $sourcePath = '@sieren/cube/src';
     public $css = [
         'css/compiled/theme_styles.css',
         'css/libs/nanoscroller.css',

@@ -8,7 +8,7 @@ use yii\web\AssetBundle;
  */
 class CubeAsset extends AssetBundle
 {
-    public $sourcePath = '@frontend/web/theme';
+    public $sourcePath = '@sieren/cube/src';
     public $css = [
 
     ];
@@ -18,6 +18,6 @@ class CubeAsset extends AssetBundle
         'yii\web\YiiAsset',
         'yii\bootstrap\BootstrapAsset',
         'rmrevin\yii\fontawesome\AssetBundle',
-        'frontend\assets\PluginsAsset',
+        'sieren\cube\PluginsAsset',
     ];
 }
