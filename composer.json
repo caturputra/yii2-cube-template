@@ -1,0 +1,22 @@
+{
+    "name": "sieren/yii2-cube-template",
+    "description": "Admin template for yii2 based on cube.",
+    "keywords": ["admin", "template", "cube"],
+    "license": "BSD-3-Clause",
+    "type": "yii2-extension",
+    "authors": [
+        {
+            "name": "caturputra",
+            "email": "caturputra99@gmail.com"
+        }
+    ],
+    "require": {
+        "rmrevin/yii2-fontawesome": "~2.17",
+        "yiisoft/yii2": "*"
+    },
+	"autoload": {
+        "psr-4": {
+            "sieren\\cube\\": ""
+        }
+    }
+}
