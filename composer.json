@@ -4,6 +4,7 @@
     "keywords": ["admin", "template", "cube"],
     "license": "BSD-3-Clause",
     "type": "yii2-extension",
+    "minimum-stability": "dev",
     "authors": [
         {
             "name": "caturputra",
